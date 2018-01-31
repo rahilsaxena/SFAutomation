@@ -1,0 +1,3 @@
+searchproduct.cmp.productdetails = {\"locator\":\"css=._1UoZlX\",\"desc\":\"productComponent\"}
+searchproduct.lnk.productname = {\"locator\":\"css=._3wU53n\",\"desc\":\"productName\"}
+searchproduct.lbl.productprice = {\"locator\":[\"css=._1vC4OE _2rQ-NK\",\"css=.I8hxu4\"],\"desc\":\"productPrice\"}

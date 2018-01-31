@@ -1,0 +1,5 @@
+login.link = {\"locator\":\"xpath=a[@href='/account/login?ret=/']\",\"desc\":\"login link of flipkart\"}
+login.user.name = {\"locator\":\"css=input._2zrpKA\",\"desc\":\"setter username\"}
+login.password = {\"locator\":\"css=input[type=password]\",\"desc\":\"login password setter\"}
+login.Button = {\"locator\":\"xpath=html/body/div[2]/div/div/div/div/div[2]/div/form/div[3]/button\",\"desc\":\"login page login button\"}
+logout.link = {\"locator\":\"linktext=Log Out\",\"desc\":\"logut btn\"}

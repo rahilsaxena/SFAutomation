@@ -1,0 +1,23 @@
+
+
+
+SCENARIO: Flikart Scenerio
+META-DATA: {"description":"Validate count of after subsequent Hierarchy filter","groups":["P1","P2","SMOKE"]}
+	
+   Given user open flipkart application from authenticate user
+   When user select 'Exercise & Fitness'  from 'Books & More' category
+   Then user applies hiereacy filter an compare count value
+   When user select '0'  product from product list	
+   And user verifies product details matching correctly
+   When user change pin code and verify
+   Then user get delivery date time
+   When user click on view detail
+   Then user verifies delivery date time and fassured item 
+   When user select add to cart
+   Then product has been added to cart
+   When user place order
+   Then order place and user verifies user detail in same page
+	
+	
+END
+

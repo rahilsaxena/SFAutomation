@@ -1,0 +1,12 @@
+placed.order = {\"locator\":[\"css=form[method='Post']\",\"css=_2AkmmA _14O7kc _7UHT_c\"],\"desc\":\"place order\"}
+user.details = {\"locator\":\"css=._2jDL7w span._3MeY5j\",\"desc\":\"User detail in placing order page\"}
+check.box.assured = {\"locator\":\"css=div._1p7h2j\",\"desc\":\"Assured Checkbox\"}
+count.after.assured.filter = {\"locator\":\"css=div.C5rIv_ span\",\"desc\":\"count of product\"}
+product.name.in.meta.data = {\"locator\":\"css=a._2cLu-l\",\"desc\":\"product name in meta data\"}
+listItemAfter.search = {\"locator\":\"css=div._3BTv9X\",\"desc\":\"iteminlist\"}
+pin.code = {\"locator\":\"css=input#pincodeInputId\",\"desc\":\"delievey pincode\"}
+check.pin.code = {\"locator\":\"css=span._2aK_gu\",\"desc\":\"check pin btn\"}
+day.time.for.item = {\"locator\":[\"css=div span.kUhIIX\",\"css=div span._3nCwDW\"],\"desc\":\"time to deliver for item\"}
+view.detail.btn = {\"locator\":\"[\\\"xpath=//span[text()='View Details']\\\",css=div span._3yGtFA\\\"]\",\"desc\":\"view detail option\"}
+item.rating = {\"locator\":\"css=span#productRating_LSTBOTEUAS3AKA7GXRTZPPN13_BOTEUAS3AKA7GXRT_\",\"desc\":\"rating of items\"}
+fassured.content.view.detail = {\"locator\":\"css=ul.QRqDX1 li\",\"desc\":\"Fassured text\"}

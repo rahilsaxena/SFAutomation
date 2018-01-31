@@ -1,0 +1,3 @@
+homePage.link.menuname = {\"locator\":\"css=a[title='%s']\",\"desc\":\"HomePage menu locator\"}
+homePage.link.submenuname = {\"locator\":\"xpath=//span[text()='%s']\",\"desc\":\"HomePage subMenu Locator\"}
+loginpage.closebutton = {\"locator\":\"xpath=//button[text()='\u2715']\",\"desc\":\"Loginpopup close button locator\"}

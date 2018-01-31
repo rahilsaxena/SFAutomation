@@ -1,0 +1,4 @@
+productdetail.btn.addtocart = {\"locator\":[\"css=svg._3oJBMI\",\"css=._2AkmmA._2Npkh4._2MWPVK\"],\"desc\":\"addtocartbtn\"}
+productdetail.lbl.price = {\"locator\":\"css=._1vC4OE._37U4_g\",\"desc\":\"priceofproduct\"}
+productdetail.lbl.productname = {\"locator\":\"css=._3eAQiD\",\"desc\":\"productname\"}
+productdetail.addtocart.data = {\"locator\":\"css=.PaJLWc\",\"desc\":\"itematcart\"}
