@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected: a string containing "IDR"     Actual: was "IDR 20:00" <a href="../img/checkTestOrderFlow_1bwyb6c231tof47094.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected: a string containing "BOM"     Actual: was "BOM 21:20" <a href="../img/checkTestOrderFlow_d265tiy5a4qh47095.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected: a string containing "IDR"     Actual: was "IDR 17:05" <a href="../img/checkTestOrderFlow_dx0iy7nt87p34793.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected: a string containing "BOM"     Actual: was "BOM 18:15" <a href="../img/checkTestOrderFlow_fdtk7vxshfyb4794.png" target="_blank">[View Screenshot]</a> </div></div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27839" started-at="2018-01-29T11:02:33Z" finished-at="2018-01-29T11:03:01Z">
+  <suite name="Default suite" duration-ms="24059" started-at="2018-01-31T07:37:51Z" finished-at="2018-01-31T07:38:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27839" started-at="2018-01-29T11:02:33Z" finished-at="2018-01-29T11:03:01Z">
+    <test name="Default test" duration-ms="24059" started-at="2018-01-31T07:37:51Z" finished-at="2018-01-31T07:38:15Z">
       <class name="com.flipkartweb.steps.GitJenkinsSteps">
-        <test-method status="PASS" signature="checkTestOrderFlow()[pri:0, instance:com.flipkartweb.steps.GitJenkinsSteps@46271dd6]" name="checkTestOrderFlow" duration-ms="27775" started-at="2018-01-29T16:32:33Z" finished-at="2018-01-29T16:33:01Z">
+        <test-method status="PASS" signature="checkTestOrderFlow()[pri:0, instance:com.flipkartweb.steps.GitJenkinsSteps@46271dd6]" name="checkTestOrderFlow" duration-ms="24026" started-at="2018-01-31T13:07:51Z" finished-at="2018-01-31T13:08:15Z">
           <reporter-output>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected: a string containing "IDR"     Actual: was "IDR 20:00" <a href="../img/checkTestOrderFlow_1bwyb6c231tof47094.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected: a string containing "BOM"     Actual: was "BOM 21:20" <a href="../img/checkTestOrderFlow_d265tiy5a4qh47095.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected: a string containing "IDR"     Actual: was "IDR 17:05" <a href="../img/checkTestOrderFlow_dx0iy7nt87p34793.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected: a string containing "BOM"     Actual: was "BOM 18:15" <a href="../img/checkTestOrderFlow_fdtk7vxshfyb4794.png" target="_blank">[View Screenshot]</a> </div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- checkTestOrderFlow -->

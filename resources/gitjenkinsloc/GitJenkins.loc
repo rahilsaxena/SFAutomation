@@ -2,7 +2,7 @@ src.point = {\"locator\":\"css=#gosuggest_inputSrc\"}
 dest.point = {\"locator\":\"css=#gosuggest_inputDest\"}
 submit.btn = {\"locator\":\"css=#gi_search_btn\"}
 calender.icon = {\"locator\":\"xpath=//*[@id=\\\"searchWidgetCommon\\\"]/div/div[3]/div[1]/div[1]/div/i\"}
-select.date = {\"locator\":\"css=#fare_20180129\"}
+select.date = {\"locator\":\"css=div#fare_20180131\"}
 one.way = {\"locator\":\"css=#gi_oneway_label\"}
 flight.details = {\"locator\":\"css=div.col-md-2.col-sm-2.padT2.ico13\"}
 verify.details = {\"locator\":\"css=div span.ico20.db.padT5.padB15\"}
