@@ -1,47 +1,36 @@
 package com.flipkartweb.pages;
 
+import static com.qmetry.qaf.automation.step.CommonStep.*;
+import static com.qmetry.qaf.automation.step.CommonStep.getText;
+import static com.qmetry.qaf.automation.step.CommonStep.sendKeys;
+
 import org.openqa.selenium.interactions.Actions;
 
-import com.qmetry.qaf.automation.core.QAFTestBase;
-import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
-import com.qmetry.qaf.automation.ui.annotations.FindBy;
-import com.qmetry.qaf.automation.ui.api.PageLocator;
-import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
-import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
+import com.qmetry.qaf.automation.step.QAFTestStep;
+import com.qmetry.qaf.automation.ui.WebDriverTestBase;
+import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
 
-public class FlipkartLoginPage extends WebDriverBaseTestPage<WebDriverTestPage> {
+public class FlipkartLoginPage  {
 
-	@Override
-	protected void openPage(PageLocator pageLocator, Object... args) {
-	}
-	 @FindBy(locator = "login.link")
-		private QAFWebElement loginLink;
-	 //input._2zrpKA _3v41xv
-	 @FindBy(locator = "logout.link")
-	 private QAFWebElement logoutLink;
-	 @FindBy(locator = "login.user.name")
-	 private QAFWebElement loginUserName;
-	 @FindBy(locator = "login.password")
-	 private QAFWebElement loginPassword;
-	 @FindBy(locator = "login.Button")
-	 private QAFWebElement loginButton;
-	 
+	@QAFTestStep(description = "user open flipkart application from authenticate user")
+
 	 public void clickLoginLink(String username,String Password) {
-		 loginUserName.sendKeys(username);
-		 loginPassword.sendKeys(Password);
-		 loginButton.click();
+		get("/");
+		sendKeys(username, "login.user.name");
+		 sendKeys(Password,"login.password");
+		 click("login.Button");
+		
        
 	 }
 	 public void clickLogout() {
 		
-        Actions actions= new Actions(driver);
-		actions.moveToElement(loginLink);
-		logoutLink.click();
+        Actions actions= new Actions(new WebDriverTestBase().getDriver());
+		actions.moveToElement(new QAFExtendedWebElement("login.link"));
+		 click("logout.link");
 		
 	 }
 	 public String getLoginUserName() {
-		 String username=loginLink.getTagName();
-		 System.out.println(username);
+		 String username=getText("login.link");
 		 return username;
 	 }
 	

@@ -27,17 +27,7 @@ public class StepsBackLog {
 	FlipkarthomeTestPage flipkarthomeTestPage = new FlipkarthomeTestPage();
 	FlipkartCommonServices flipkartCommonServices=new FlipkartCommonServices();
 
-	@QAFTestStep(description = "user open flipkart application from authenticate user")
-	public void userOpenFlipkartApplicationFromAuthenticateUser() {
-		FlipkarthomeTestPage flipkarthomeTestPage = new FlipkarthomeTestPage();
-		flipkarthomeTestPage.lauchsite();
-		FlipkartLoginPage flipkartLoginPage = new FlipkartLoginPage();
-		
-// login from user taking data master model
-		flipkartLoginPage.clickLoginLink(UserGeneric.Username, UserGeneric.Password);
-		flipkarthomeTestPage.verifyFlipKartHomePage();
-	}
-	
+
 	@QAFTestStep(description = "user select {0}  from {1} category")
 	public void userSelectFromCategory(String subMenuName, String menuName) {
 		flipkarthomeTestPage.selectCategory(subMenuName, menuName);
