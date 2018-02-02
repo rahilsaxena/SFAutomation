@@ -12,7 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<testSuiteFile>config/testng.xml</testSuiteFile>
+		<testSuiteFile>config/testrun_config.xml</testSuiteFile>
 		<sourceVersion>1.7</sourceVersion>
 		<targetVersion>1.7</targetVersion>
 		<qaf.version>2.1.12-RC3</qaf.version>
@@ -48,11 +48,11 @@
 			<artifactId>qaf-support</artifactId>
 			<version>${qaf-support.version}</version>
 		</dependency>
-		 <dependency>
+		<dependency>
 			<groupId>com.qmetry</groupId>
 			<artifactId>qaf-support-ws</artifactId>
 			<version>${qaf-support-ws.version}</version>
-		</dependency> 
+		</dependency>
 	</dependencies>
 	<build>
 
@@ -66,17 +66,17 @@
 					<target>${targetVersion}</target>
 				</configuration>
 			</plugin>
-			 <plugin>
+			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>aspectj-maven-plugin</artifactId>
 				<version>1.7</version>
 				<executions>
-					  <execution>
+					<execution>
 						<id>test-compile</id>
 						<goals>
 							<goal>test-compile</goal>
 						</goals>
-					</execution> 
+					</execution>
 				</executions>
 				<configuration>
 					<source>${sourceVersion}</source>
@@ -96,7 +96,6 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.9</version>
 				<configuration>
-				<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
 						<suiteXmlFile>${testSuiteFile}</suiteXmlFile>
 					</suiteXmlFiles>
@@ -115,7 +114,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		 <pluginManagement>
+		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
@@ -143,6 +142,6 @@
 					</configuration>
 				</plugin>
 			</plugins>
-		</pluginManagement> 
+		</pluginManagement>
 	</build>
 </project>
