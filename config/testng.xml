@@ -3,9 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-<!--       <class name="com.flipkartweb.steps.FlipKartProductOrderSteps"/>
-   <class name="com.flipkartweb.steps.NewScenerio"/>
- -->  
+
  <class name="com.flipkartweb.steps.GitJenkinsSteps"/>
      
     </classes>
