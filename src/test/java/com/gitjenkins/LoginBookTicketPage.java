@@ -30,7 +30,7 @@ public class LoginBookTicketPage extends WebDriverBaseTestPage<WebDriverTestPage
 	 private QAFWebElement SubmitButton;
 	 
 	 @FindBy(locator = "calender.icon")
-	 private QAFWebElement CalenderIcon;
+	 private List<QAFWebElement> CalenderIcon;
 	
 	 
 	 @FindBy(locator = "select.date")
@@ -60,7 +60,7 @@ public class LoginBookTicketPage extends WebDriverBaseTestPage<WebDriverTestPage
 		 DestPoint.sendKeys(destpoint);
 		 QAFTestBase.pause(1000);
 
-		 CalenderIcon.click();
+		 CalenderIcon.get(1).click();
 		 QAFTestBase.pause(1000);
 
 		 SelectDate.click();
